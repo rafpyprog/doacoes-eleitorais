@@ -1,0 +1,17 @@
+LEGISLAÇÃO ELEITORAL
+
+Resolução Nº 23.463, de 15 de dezembro de 2015.
+http://www.tse.jus.br/legislacao-tse/res/2015/RES234632015.html
+
+
+-------------------------------------------------------------------------------
+PROCESSAMENTO DE LINGUAGEM NATURAL
+
+
+MITCHELL, Ryan. Web Scraping com Python. 2015, 1ed. Novatec
+
+"O Natural Language Toolkit(NLTK) é um conjunto de bibliotecas Python projetado
+para identificar e marcar fragmentos de discurso ecnotrados em um texto no in-
+dioma natural inglês. Seud desenvolviemento começou em 2000, e nos últimos 15
+anos vários desenvolvedores ao redor do planeta contribuíram para o projeto."
+
