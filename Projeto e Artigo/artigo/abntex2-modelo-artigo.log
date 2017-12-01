@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.30)  1 DEC 2017 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.30)  1 DEC 2017 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**projeto-pesquisa.tex
-(./projeto-pesquisa.tex
+**abntex2-modelo-artigo.tex
+(./abntex2-modelo-artigo.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/local/share/texmf/tex/latex/abntex2/abntex2.cls
@@ -488,61 +488,31 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2016/02/13 v3.1l French support from the babel system
-\l@acadian = a dialect from \language\l@french 
-\l@canadien = a dialect from \language\l@french 
-\FBcolonskip=\skip186
-\FBthinskip=\skip187
-Package babel Info: Making : an active character on input line 342.
-Package babel Info: Making ; an active character on input line 343.
-Package babel Info: Making ! an active character on input line 344.
-Package babel Info: Making ? an active character on input line 345.
-\FBguillskip=\skip188
-\FBguill@level=\count151
-\FB@everypar=\toks23
-\FB@Mht=\dimen152
-\std@mcc=\count152
-\dec@mcc=\count153
-\listindentFB=\skip189
-\labelwidthFB=\skip190
-\leftmarginFB=\skip191
-\parindentFFN=\dimen153
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
-\es@quottoks=\toks24
-\es@quotdepth=\count154
-Package babel Info: Making " an active character on input line 533.
-Package babel Info: Making . an active character on input line 634.
-Package babel Info: Making < an active character on input line 679.
-Package babel Info: Making > an active character on input line 679.
-)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip192
-\enit@outerparindent=\dimen154
-\enit@toks=\toks25
+\labelindent=\skip186
+\enit@outerparindent=\dimen152
+\enit@toks=\toks23
 \enit@inbox=\box29
-\enitdp@description=\count155
+\enitdp@description=\count151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count156
-\calc@Bcount=\count157
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
-\calc@Askip=\skip193
-\calc@Bskip=\skip194
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip187
+\calc@Bskip=\skip188
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count158
-\calc@Cskip=\skip256
+\calc@Ccount=\count154
+\calc@Cskip=\skip189
 )
 
 ******************************************************
@@ -564,20 +534,20 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count159
-\cftlastnumwidth=\skip257
-\chapternamenumlength=\skip258
-\ABNTEXcitacaorecuo=\skip259
-\c@alineasi=\count160
-\c@alineasii=\count161
-\enitdp@alineas=\count162
-\c@subalineasi=\count163
-\enitdp@subalineas=\count164
-\c@incisosi=\count165
-\enitdp@incisos=\count166
-\ABNTEXsignwidth=\skip260
-\ABNTEXsignthickness=\skip261
-\ABNTEXsignskip=\skip262
+\c@abntex@bookmarkcounter=\count155
+\cftlastnumwidth=\skip190
+\chapternamenumlength=\skip191
+\ABNTEXcitacaorecuo=\skip192
+\c@alineasi=\count156
+\c@alineasii=\count157
+\enitdp@alineas=\count158
+\c@subalineasi=\count159
+\enitdp@subalineas=\count160
+\c@incisosi=\count161
+\enitdp@incisos=\count162
+\ABNTEXsignwidth=\skip193
+\ABNTEXsignthickness=\skip194
+\ABNTEXsignskip=\skip256
 ) (/usr/local/share/texmf/tex/latex/ua1/uarial.sty
 Package: uarial 2006/03/21 1.0 (WaS)
 )
@@ -590,8 +560,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks26
-\inpenc@posthook=\toks27
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -900,8 +870,11 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen155
+\nom@tempdim=\dimen156
+\nomitemsep=\skip257
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
@@ -913,7 +886,7 @@ Package color Info: Driver file: pdftex.def on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count167
+\Gread@gobject=\count163
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -934,25 +907,29 @@ Package graphics Info: Driver file: pdftex.def on input line 95.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks28
-\MT@count=\count168
+\MT@toks=\toks26
+\MT@count=\count164
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen159
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count169
+\MT@listname@count=\count165
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip263
+\MT@outer@space=\skip258
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count166
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 )
@@ -960,51 +937,82 @@ Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 (/usr/local/share/texmf/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip264
-\ABCIauxlen=\skip265
-\c@ABCIaux=\count170
-\c@ABCImax=\count171
+\minimumbiblabelwidth=\skip259
+\ABCIauxlen=\skip260
+\c@ABCIaux=\count167
+\c@ABCImax=\count168
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip266
+\biblabelsep=\skip261
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks29
+\ABCItoken=\toks27
 )
-Package color Info: Redefining color blue on input line 118.
-Package hyperref Info: Option `colorlinks' set `true' on input line 135.
-\projeto-pesquisa@idxfile=\write4
-\openout4 = `projeto-pesquisa.idx'.
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip262
+\f@ncyO@elh=\skip263
+\f@ncyO@erh=\skip264
+\f@ncyO@olh=\skip265
+\f@ncyO@orh=\skip266
+\f@ncyO@elf=\skip267
+\f@ncyO@erf=\skip268
+\f@ncyO@olf=\skip269
+\f@ncyO@orf=\skip270
+)
+Package color Info: Redefining color blue on input line 133.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+\abntex2-modelo-artigo@idxfile=\write4
+\openout4 = `abntex2-modelo-artigo.idx'.
 
 
-Writing index file projeto-pesquisa.idx 
-(./projeto-pesquisa.aux)
-\openout1 = `projeto-pesquisa.aux'.
+Writing index file abntex2-modelo-artigo.idx 
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 158.
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 731.77844pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 82.51282pt and 30.75558pt
+Headheight and headsep: 14.5pt and 45.52458pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+(./abntex2-modelo-artigo.aux)
+\openout1 = `abntex2-modelo-artigo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 184.
+LaTeX Font Info:    ... okay on input line 184.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 184.
  (/usr/local/share/texmf/tex/latex/ua1/t1ua1.fd
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 158.
+(Font)              scaled to size 11.39996pt on input line 184.
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 158.
+Package hyperref Info: Link coloring ON on input line 184.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1012,32 +1020,29 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count169
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 158.
-LaTeX Info: Redefining \ref on input line 158.
-LaTeX Info: Redefining \pageref on input line 158.
-LaTeX Info: Redefining \nameref on input line 158.
-LaTeX Info: Redefining \degres on input line 158.
-LaTeX Info: Redefining \dots on input line 158.
-LaTeX Info: Redefining \up on input line 158.
+LaTeX Info: Redefining \nameref on input line 184.
+LaTeX Info: Redefining \ref on input line 184.
+LaTeX Info: Redefining \pageref on input line 184.
+LaTeX Info: Redefining \nameref on input line 184.
 \myptabbox=\box31
-\myptabboxwidth=\skip267
+\myptabboxwidth=\skip271
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
+\scratchcounter=\count170
 \scratchdimen=\dimen160
 \scratchbox=\box32
-\nofMPsegments=\count174
-\nofMParguments=\count175
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count176
+\nofMPsegments=\count171
+\nofMParguments=\count172
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count173
 \MPscratchDim=\dimen161
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1053,7 +1058,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 158.
+LaTeX Info: Redefining \microtypecontext on input line 184.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1068,112 +1073,227 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 176.
-LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 176.
-LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 176.
-
-[1
-
-{/home/rafael/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 184.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 184.
-LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 184.
-LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 184.
+(Font)              scaled to size 19.70294pt on input line 207.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 207.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 184.
+(Font)              <14.4> on input line 207.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 184.
+(Font)              <7> on input line 207.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 210.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 210.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 221.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 221.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 249.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 254.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 254.
+
+
+LaTeX Warning: Citation `abntex2classe' on page 1 undefined on input line 254.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 184.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.184 
-       [1
-
-
-
-]
+(Font)              <12> on input line 257.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 257.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 257.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 231.
- (./projeto-pesquisa.toc) [2
-
-]
+(Font)              scaled to size 7.59998pt on input line 260.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 266.
- [3
-
-
-] [4
-
-]
+(Font)              scaled to size 9.49997pt on input line 261.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 261.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 287.
- [5
+(Font)              scaled to size 6.64998pt on input line 261.
 
-] (./projeto-pesquisa.bbl
-(./projeto-pesquisa.brf)
+LaTeX Warning: Citation `abntex2-wiki-como-customizar' on page 1 undefined on i
+nput line 267.
+
+
+LaTeX Warning: Citation `abntex2classe' on page 1 undefined on input line 271.
+
+
+LaTeX Warning: Citation `abntex2cite' on page 1 undefined on input line 272.
+
+
+LaTeX Warning: Citation `abntex2cite-alf' on page 1 undefined on input line 272
+.
+
+
+LaTeX Warning: Citation `memoir' on page 1 undefined on input line 273.
+
+
+LaTeX Warning: Citation `abntex2modelo' on page 1 undefined on input line 273.
+
+<header_igti.jpg, id=7, 624.08156pt x 60.97781pt>
+File: header_igti.jpg Graphic file (type jpg)
+ <use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 275.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{/home/rafael/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./header_igti.jpg>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 287.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: header_igti.jpg Graphic file (type jpg)
+
+<use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 331.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+LaTeX Warning: Citation `memoir' on page 3 undefined on input line 353.
+
+
+LaTeX Warning: Citation `abntex2modelo' on page 3 undefined on input line 363.
+
+
+LaTeX Warning: Citation `abntex2classe' on page 3 undefined on input line 367.
+
+File: header_igti.jpg Graphic file (type jpg)
+<use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 385.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+File: header_igti.jpg Graphic file (type jpg)
+ <use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 405.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4] (./abntex2-modelo-artigo.bbl (./abntex2-modelo-artigo.brf)
 \tf@brf=\write5
-\openout5 = `projeto-pesquisa.brf'.
+\openout5 = `abntex2-modelo-artigo.brf'.
 
- [6
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-) [7
 
-]
-\tf@toc=\write6
-\openout6 = `projeto-pesquisa.toc'.
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
- (./projeto-pesquisa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
-Package rerunfilecheck Info: File `projeto-pesquisa.brf' has not changed.
-(rerunfilecheck)             Checksum: 8A0447B90999FF6E6AC2BCC815F440A4;520.
+)
+File: header_igti.jpg Graphic file (type jpg)
+ <use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 470.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
+[5]
+File: header_igti.jpg Graphic file (type jpg)
+ <use header_igti.jpg>
+Package pdftex.def Info: header_igti.jpg used on input line 474.
+(pdftex.def)             Requested size: 465.92693pt x 45.52458pt.
+
+Overfull \hbox (10.92693pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 49.87462pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 474.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 474.
+ (./abntex2-modelo-artigo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 474.
+Package rerunfilecheck Info: File `abntex2-modelo-artigo.brf' has not changed.
+(rerunfilecheck)             Checksum: 5400F79AB8AC13746B7BF1C40A101C3D;548.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 474.
  ) 
 Here is how much of TeX's memory you used:
- 13549 strings out of 493029
- 200818 string characters out of 6136233
- 355825 words of memory out of 5000000
- 16808 multiletter control sequences out of 15000+600000
- 69758 words of font info for 99 fonts, out of 8000000 for 9000
+ 13037 strings out of 493029
+ 191147 string characters out of 6136233
+ 441458 words of memory out of 5000000
+ 16232 multiletter control sequences out of 15000+600000
+ 91922 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,36p,504b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/share/
-texmf/fonts/type1/urw/arial/ua1b8a.pfb></usr/local/share/texmf/fonts/type1/urw/
-arial/ua1r8a.pfb>
-Output written on projeto-pesquisa.pdf (8 pages, 36929 bytes).
+ 39i,15n,43p,390b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/rafael/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/
+rafael/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/share/texmf/fonts/type1/ur
+w/arial/ua1b8a.pfb></usr/local/share/texmf/fonts/type1/urw/arial/ua1r8a.pfb></u
+sr/local/share/texmf/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on abntex2-modelo-artigo.pdf (6 pages, 68702 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 18489 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 32886 words of extra memory for PDF output out of 35830 (max. 10000000)
 
