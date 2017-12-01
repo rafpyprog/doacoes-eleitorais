@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Ander-Egg 1978]{ander1978introduccion}
+\abntrefinfo{Ander-Egg}{ANDER-EGG}{1978}
+{ANDER-EGG, E. \emph{Introducci{\'o}n a las t{\'e}cnicas de investigaci{\'o}n
+  Para trabajadores sociales}. [S.l.]: Humanistas, 1978.}
+
 \bibitem[Boas, Hidalgo e Richardson 2014]{boas2014spoils}
 \abntrefinfo{Boas, Hidalgo e Richardson}{BOAS; HIDALGO; RICHARDSON}{2014}
 {BOAS, T.~C.; HIDALGO, F.~D.; RICHARDSON, N.~P. The spoils of victory: campaign
@@ -18,6 +23,13 @@
   access to finance: The role of campaign contributions.
 \emph{Journal of financial economics}, Elsevier, v.~88, n.~3, p. 554--580,
   2008.}
+
+\bibitem[Lakatos e Marconi 2001]{lakatos2001metodologia}
+\abntrefinfo{Lakatos e Marconi}{LAKATOS; MARCONI}{2001}
+{LAKATOS, E.~M.; MARCONI, M. de A. Metodologia do trabalho cient{\'\i}fico:
+  procedimentos b{\'a}sicos, pesquisa bibliogr{\'a}fica, projeto e
+  relat{\'o}rio, publica{\c{c}}{\~o}es e trabalhos cient{\'\i}ficos.
+Atlas, 2001.}
 
 \bibitem[Sztutman, Aldrighi et al. 2013]{sztutman2013financiamento}
 \abntrefinfo{Sztutman, Aldrighi et al.}{SZTUTMAN; ALDRIGHI et al.}{2013}

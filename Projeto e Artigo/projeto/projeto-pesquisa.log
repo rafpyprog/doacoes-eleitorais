@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.30)  1 DEC 2017 02:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.30)  1 DEC 2017 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,41 +1141,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 bibitemlist
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 14.
+(Font)              scaled to size 11.39996pt on input line 12.
 ) [7
 
 ]
 \tf@toc=\write6
 \openout6 = `projeto-pesquisa.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
  (./projeto-pesquisa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `projeto-pesquisa.brf' has not changed.
-(rerunfilecheck)             Checksum: F15A783C8B1AD4AAA7EDAC93295EB235;157.
+(rerunfilecheck)             Checksum: 1076C8C016AF453D19255C72F7F3103A;371.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
  ) 
 Here is how much of TeX's memory you used:
- 13533 strings out of 493029
- 199971 string characters out of 6136233
- 353987 words of memory out of 5000000
- 16771 multiletter control sequences out of 15000+600000
- 78939 words of font info for 115 fonts, out of 8000000 for 9000
+ 13556 strings out of 493029
+ 200583 string characters out of 6136233
+ 354414 words of memory out of 5000000
+ 16791 multiletter control sequences out of 15000+600000
+ 79167 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,36p,504b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/share/
 texmf/fonts/type1/urw/arial/ua1b8a.pfb></usr/local/share/texmf/fonts/type1/urw/
 arial/ua1r8a.pfb></usr/local/share/texmf/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on projeto-pesquisa.pdf (8 pages, 39551 bytes).
+Output written on projeto-pesquisa.pdf (8 pages, 41276 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  22585 words of extra memory for PDF output out of 24883 (max. 10000000)
 
