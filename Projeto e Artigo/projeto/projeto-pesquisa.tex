@@ -45,6 +45,8 @@
 	brazil,				% o último idioma é o principal do documento
 	]{abntex2}
 
+
+
 % ---
 % PACOTES
 % ---
@@ -125,8 +127,8 @@ a conclusão do Curso de Pós-Graduação em Análise de Inteligência de Negóc
 	    pdfcreator={LaTeX with abnTeX2},
 		pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa},
 		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
     	filecolor=magenta,      		% color of file links
 		urlcolor=blue,
 		bookmarksdepth=4
@@ -154,6 +156,7 @@ a conclusão do Curso de Pós-Graduação em Análise de Inteligência de Negóc
 % Início do documento
 % ----
 \begin{document}
+
 
 % Seleciona o idioma do documento (conforme pacotes do babel)
 %\selectlanguage{english}
@@ -296,19 +299,17 @@ Adicionalmente, espera-se que o estudo possa contribuir para a implementação d
 
 Segundo \apudonline[p.~155]{ander1978introduccion}{lakatos2001metodologia}, a pesquisa é um “procedimento reflexivo sistemático, controlado e crítico, que permite descobrir novos fatos ou dados, relações ou leis, em qualquer campo do conhecimento”.
 
-De acordo com Cervo e Bervian (1996), a pesquisa parte, pois, de uma dúvida ou problema e, com o uso do método científico, busca uma resposta ou solução.
+De acordo com \citeonline{cervo2007roberto}, a pesquisa parte, pois, de uma dúvida ou problema e, com o uso do método científico, busca uma resposta ou solução.
 
-Entende-se que utilização da pesquisa exploratória, se justifica pela necessidade. De utilização de métodos e técnicas para a análise dos dados do repositorio eleitoral com vistas oferecer informações sobre as alteraçãoes na dinâmica dos gastos em campanhas eleitorais. (Cervo, Bervian e Silva, 2007).
+Entende-se que utilização da pesquisa exploratória, se justifica pela necessidade. De utilização de métodos e técnicas para a análise dos dados do repositorio eleitoral com vistas oferecer informações sobre as alteraçãoes na dinâmica dos gastos em campanhas eleitorais. \cite{cervo2007roberto}
 
 Utilizando-se de uma abordagem quantitativa, o trabalho pretende abordar o problema através de um estudo de caso de natureza aplicada para realizar o estudo dos dados divulgados pelo Tribunal Superior Eleitoral no Repositório de dados eleitorais:
 
 \begin{citacao}
- O Repositório de dados eleitorais é uma compilação de informações brutas das eleições, desde as de 1945, voltada para pesquisadores, imprensa e pessoas interessadas em analisar os dados de eleitorado, candidaturas, resultados e prestação de contas. (BRASIL, 2017)
+ O Repositório de dados eleitorais é uma compilação de informações brutas das eleições, desde as de 1945, voltada para pesquisadores, imprensa e pessoas interessadas em analisar os dados de eleitorado, candidaturas, resultados e prestação de contas. \cite{brasil2017repositorio}
 \end{citacao}
 
 Para a análise dos dados pretende-se desenvolver um classificador de texto que permita reduzir a dimensionalidade dos dados, com ênfase na análise léxica e na utilização modelo Bayesiano Ingênuo ou Simples de aprendizagem supervisionada para a para categorização dos dados.
-
-
 
 % ---
 % Finaliza a parte no bookmark do PDF
@@ -322,6 +323,7 @@ Para a análise dos dados pretende-se desenvolver um classificador de texto que 
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
+\citeoption{ABNT-final}
 \bibliography{projeto-pesquisa}
 
 

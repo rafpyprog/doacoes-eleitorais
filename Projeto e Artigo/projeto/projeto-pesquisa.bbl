@@ -7,34 +7,47 @@
 
 \bibitem[Ander-Egg 1978]{ander1978introduccion}
 \abntrefinfo{Ander-Egg}{ANDER-EGG}{1978}
-{ANDER-EGG, E. \emph{Introducci{\'o}n a las t{\'e}cnicas de investigaci{\'o}n
-  Para trabajadores sociales}. [S.l.]: Humanistas, 1978.}
+{ANDER-EGG, E. \textbf{Introducci{\'o}n a las t{\'e}cnicas de investigaci{\'o}n
+  Para trabajadores sociales}. Buenos Aires: Humanistas, 1978.}
 
 \bibitem[Boas, Hidalgo e Richardson 2014]{boas2014spoils}
 \abntrefinfo{Boas, Hidalgo e Richardson}{BOAS; HIDALGO; RICHARDSON}{2014}
 {BOAS, T.~C.; HIDALGO, F.~D.; RICHARDSON, N.~P. The spoils of victory: campaign
   donations and government contracts in brazil.
-\emph{The Journal of Politics}, Cambridge University Press New York, USA,
+\textbf{The Journal of Politics}, Cambridge University Press New York, USA,
   v.~76, n.~2, p. 415--429, 2014.}
+
+\bibitem[Brasil 2017]{brasil2017repositorio}
+\abntrefinfo{Brasil}{BRASIL}{2017}
+{BRASIL. Tribunal superior eleitoral.
+\textbf{Repositório de Dados Eleitorais}, 2017.
+Dispon{\'\i}vel em:
+  \url{http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais}.
+  Acesso em: 11 abr. 2017.}
+
+\bibitem[Cervo, Bervian e Silva 2007]{cervo2007roberto}
+\abntrefinfo{Cervo, Bervian e Silva}{CERVO; BERVIAN; SILVA}{2007}
+{CERVO, A.~L.; BERVIAN, P.~A.; SILVA, R.~d. \textbf{Metodologia
+  Cient{\'\i}fica}. 6. ed. S{\~a}o Paulo: Pearson Prentice Hall, 2007.}
 
 \bibitem[Claessens, Feijen e Laeven 2008]{claessens2008political}
 \abntrefinfo{Claessens, Feijen e Laeven}{CLAESSENS; FEIJEN; LAEVEN}{2008}
 {CLAESSENS, S.; FEIJEN, E.; LAEVEN, L. Political connections and preferential
   access to finance: The role of campaign contributions.
-\emph{Journal of financial economics}, Elsevier, v.~88, n.~3, p. 554--580,
+\textbf{Journal of financial economics}, Elsevier, v.~88, n.~3, p. 554--580,
   2008.}
 
 \bibitem[Lakatos e Marconi 2001]{lakatos2001metodologia}
 \abntrefinfo{Lakatos e Marconi}{LAKATOS; MARCONI}{2001}
-{LAKATOS, E.~M.; MARCONI, M. de A. Metodologia do trabalho cient{\'\i}fico:
-  procedimentos b{\'a}sicos, pesquisa bibliogr{\'a}fica, projeto e
-  relat{\'o}rio, publica{\c{c}}{\~o}es e trabalhos cient{\'\i}ficos.
-Atlas, 2001.}
+{LAKATOS, E.~M.; MARCONI, M. de A. \textbf{Metodologia do trabalho
+  cient{\'\i}fico: procedimentos b{\'a}sicos, pesquisa bibliogr{\'a}fica,
+  projeto e relat{\'o}rio, publica{\c{c}}{\~o}es e trabalhos cient{\'\i}ficos}.
+  S{\~a}o Paulo: Atlas, 2001.}
 
 \bibitem[Sztutman, Aldrighi et al. 2013]{sztutman2013financiamento}
 \abntrefinfo{Sztutman, Aldrighi et al.}{SZTUTMAN; ALDRIGHI et al.}{2013}
 {SZTUTMAN, A.~M.; ALDRIGHI, D.~M. et al. Financiamento das campanhas eleitorais
   de 2006 por grupos econ{\^o}micos e empr{\'e}stimos do bndes.
-\emph{XII Encontro Brasileiro de Finan{\c{c}}as, Rio de Janeiro}, 2013.}
+\textbf{XII Encontro Brasileiro de Finan{\c{c}}as}, Rio de Janeiro, 2013.}
 
 \end{thebibliography}
