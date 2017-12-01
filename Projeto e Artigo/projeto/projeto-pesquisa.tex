@@ -1,0 +1,328 @@
+%% abtex2-modelo-projeto-pesquisa.tex, v-1.9.6 laurocesar
+%% Copyright 2012-2016 by abnTeX2 group at http://www.abntex.net.br/
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-projeto-pesquisa.tex
+%% and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Projeto de pesquisa em conformidade com
+% ABNT NBR 15287:2011 Informação e documentação - Projeto de pesquisa -
+% Apresentação
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel.
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais
+% ---
+
+\usepackage[scaled]{uarial}
+\renewcommand*\familydefault{\sfdefault} 
+%\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% ---
+% CONFIGURAÇÕES DE PACOTES
+% ---
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Análise do Financimento de Campanhas Eleitorais Utilizando Ferramentas de Processamento de Linguagem Natural: Um Estudo de Caso das Eleiçoes para Prefeito no Município de São Paulo em 2012 e 2016.}
+\autor{Rafael Alves Ribeiro}
+\local{Brasil}
+\data{2017}
+\instituicao{%
+   Instituto de Gestão e Tecnologia da Informação - IGTI
+  }
+\tipotrabalho{Tese (Doutorado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo,
+% o nome da instituição e a área de concentração
+\preambulo{Projeto de Trabalho de Conclusão de Curso apresentado ao
+Instituto de Gestão e Tecnologia da Informação como requisito para
+a conclusão do Curso de Pós-Graduação em Análise de Inteligência de Negócio.}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title},
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa},
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% ---
+
+% ---
+% Espaçamentos entre linhas e parágrafos
+% ---
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% ---
+\imprimirfolhaderosto
+% ---
+
+% ---
+% NOTA DA ABNT NBR 15287:2011, p. 4:
+%  ``Se exigido pela entidade, apresentar os dados curriculares do autor em
+%     folha ou página distinta após a folha de rosto.''
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+%  \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+%  \item[$ \Gamma $] Letra grega Gama
+%  \item[$ \Lambda $] Lambda
+%  \item[$ \zeta $] Letra grega minúscula zeta
+%  \item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Problema de Pesquisa
+% ----------------------------------------------------------
+\chapter{Problema de Pesquisa}
+
+\index{elementos textuais}“O financiamento de campanhas eleitorais é um
+componente de grande importância no funcionamento de regimes democráticos” \cite{sztutman2013financiamento}. No Brasil, historicamente tem prevalecido o
+financiamento privado de campanhas por pessoas jurídicas, agentes com grande
+poder econômico e forte capacidade de organização.
+
+Apesar de serem um instrumento legal de participação política, as doações
+privadas realizadas por grupos empresariais podem ser consideradas um fator
+de desequilíbrio no jogo democrático. Tanto \citeonline{claessens2008political},
+como \citeonline{boas2014spoils} ressaltam que as conexões politicas criadas pelas empresas com doações a campanhas eleitorais resultam em algum tipo de favorecimento político. Este favorecimento se traduz em uma maior expectativa de retorno dos investidores, no acesso preferencial as fontes de financiamento e em um maior número de contratos públicos atendidos.
+
+Evidenciando ainda mais o efeito danoso da atuação de grupos empresariais no financiamento de campanhas, em 2014, a segunda etapa da operação Lava Jato trouxe à tona uma série de escândalos de prática de lavagem de dinheiro, corrupção e fraudes em licitações envolvendo grandes grupos empresariais organizados em cartel e a estatal Petrobras.
+
+Deste cenário, surge a mola propulsora que motiva o desenvolvimento deste trabalho:
+
+Considerando-se os pleitos de 2012 e 2016, qual o efeito da proibição do financiamento político realizado por pessoas jurídicas nas receitas e despesas das campanhas para o cargo de prefeito do município de São Paulo?
+
+
+% ----------------------------------------------------------
+% Objetivo
+% ----------------------------------------------------------
+\chapter[Objetivo]{Objetivo}
+
+Para identificar o efeito da proibição do financiamento político realizado por pessoas jurídicas, o presente trabalho propõe-se a classificar e comparar os gastos  realizados nas campanhas eleitorais para o cargo de prefeito nas eleições municipais de São Paulo nos pleitos de 2012 e 2016. Para tal, pretende-se:
+
+\begin{alineas}
+ \item Realizar o levantamento e tratamento dos dados do Repositório de dados eleitorais do Tribunal Superior Eleitoral;
+ \item Criar um modelo de classificação dos tipos de receitas e despesas realizadas pelos candidados;
+ \item Descrever e analisar os dados e os resultados obtidos com o modelo de classificação;
+ \item Apresentar o resultado obtido em forma de artigo científico.
+\end{alineas}
+
+
+% ----------------------------------------------------------
+% Justificativa
+% ----------------------------------------------------------
+\chapter[Justificativa]{Justificativa}
+
+Nos últimos anos o sistema de financiamento eleitoral brasileiro passou por transformações que alteraram significativamente as fontes de recursos disponíveis para as campanhas políticas. Com a análise dos dados contidos no repositório de dados de dados eleitorais, este trabalho se propõe a promover uma melhor compreensão da dinâmica eleitoral do país, extraindo informações que possam servir como referência para futuros estudos e discussões sobre o tema.
+
+Com objetivo de garantir autenticidade do processo eleitoral e assegurar  transparência das relações entre o Poder Público e os agentes econômicos, em 2011, o Supremo Tribunal Federal deu início a Ação Direta de Inconstitucionalidade 4.650. O julgamento da ação foi concluído em setembro de 2015 com a declaração da inconstitucionalidade dos dispositivos legais que autorizavam as contribuições de pessoas jurídicas às campanhas eleitorais.
+
+A ação do Supremo Tribunal e a pressão dos setores da sociedade culminaram na  realização da Reforma Eleitoral 2015 (Lei nº 13.165/2015), que proibiu o financiamento eleitoral por pessoas jurídicas, restringindo o aporte de recursos a doações de pessoas físicas e valores do Fundo Partidário.
+
+Com base neste cenário, este trabalho se propõe a realizar uma contribuição para a compreensão dos efeitos das mudanças das regras para o financiamento eleitoral,  lançando luz sobre as alterações na dinâmica da utilização de recursos das campanhas após a proibição da doação de recursos por pessoas jurídicas.
+
+Adicionalmente, espera-se que o estudo possa contribuir para a implementação de mecanismos mais eficazes na detecção de indícios de irregularidades na prestação de contas de campanha no que tange ao limite de gastos, arrecadação e aplicação de recursos.
+
+
+% ----------------------------------------------------------
+% Metodologia
+% ----------------------------------------------------------
+\chapter[Metodologia]{Metodologia}
+
+Segundo Ander-Egg (1978, apud LAKATOS e MARCONI, 2001, p. 155), a pesquisa é um “procedimento reflexivo sistemático, controlado e crítico, que permite descobrir novos fatos ou dados, relações ou leis, em qualquer campo do conhecimento”.
+
+De acordo com Cervo e Bervian (1996), a pesquisa parte, pois, de uma dúvida ou problema e, com o uso do método científico, busca uma resposta ou solução.
+
+Entende-se que utilização da pesquisa exploratória, se justifica pela necessidade. De utilização de métodos e técnicas para a análise dos dados do repositorio eleitoral com vistas oferecer informações sobre as alteraçãoes na dinâmica dos gastos em campanhas eleitorais. (Cervo, Bervian e Silva, 2007).
+
+Utilizando-se de uma abordagem quantitativa, o trabalho pretende abordar o problema através de um estudo de caso de natureza aplicada para realizar o estudo dos dados divulgados pelo Tribunal Superior Eleitoral no Repositório de dados eleitorais:
+
+\begin{citacao}
+ O Repositório de dados eleitorais é uma compilação de informações brutas das eleições, desde as de 1945, voltada para pesquisadores, imprensa e pessoas interessadas em analisar os dados de eleitorado, candidaturas, resultados e prestação de contas. (BRASIL, 2017)
+\end{citacao}
+
+Para a análise dos dados pretende-se desenvolver um classificador de texto que permita reduzir a dimensionalidade dos dados, com ênfase na análise léxica e na utilização modelo Bayesiano Ingênuo ou Simples de aprendizagem supervisionada para a para categorização dos dados.
+
+
+
+% ---
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ---
+\phantompart
+
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{projeto-pesquisa}
+
+
+\phantompart
+\end{document}

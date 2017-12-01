@@ -1,0 +1,28 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Boas, Hidalgo e Richardson 2014]{boas2014spoils}
+\abntrefinfo{Boas, Hidalgo e Richardson}{BOAS; HIDALGO; RICHARDSON}{2014}
+{BOAS, T.~C.; HIDALGO, F.~D.; RICHARDSON, N.~P. The spoils of victory: campaign
+  donations and government contracts in brazil.
+\emph{The Journal of Politics}, Cambridge University Press New York, USA,
+  v.~76, n.~2, p. 415--429, 2014.}
+
+\bibitem[Claessens, Feijen e Laeven 2008]{claessens2008political}
+\abntrefinfo{Claessens, Feijen e Laeven}{CLAESSENS; FEIJEN; LAEVEN}{2008}
+{CLAESSENS, S.; FEIJEN, E.; LAEVEN, L. Political connections and preferential
+  access to finance: The role of campaign contributions.
+\emph{Journal of financial economics}, Elsevier, v.~88, n.~3, p. 554--580,
+  2008.}
+
+\bibitem[Sztutman, Aldrighi et al. 2013]{sztutman2013financiamento}
+\abntrefinfo{Sztutman, Aldrighi et al.}{SZTUTMAN; ALDRIGHI et al.}{2013}
+{SZTUTMAN, A.~M.; ALDRIGHI, D.~M. et al. Financiamento das campanhas eleitorais
+  de 2006 por grupos econ{\^o}micos e empr{\'e}stimos do bndes.
+\emph{XII Encontro Brasileiro de Finan{\c{c}}as, Rio de Janeiro}, 2013.}
+
+\end{thebibliography}
