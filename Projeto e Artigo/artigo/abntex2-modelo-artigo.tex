@@ -54,16 +54,14 @@
 % ---
 \usepackage[scaled]{uarial} % Usa a fonte Arial
 \renewcommand*\familydefault{\sfdefault} 
-
-
 \usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
-
+\usepackage[utf8]{inputenc}		% Codificacao do documento
 %\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
 \usepackage{nomencl} 			% Lista de simbolos
 \usepackage{color}				% Controle das cores
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
+\usepackage{setspace}           % para definição de espaço entre parágrafos
 % ---
 		
 % ---
@@ -96,11 +94,11 @@
 	\fi}%
 % ---
 
+
 % ---
 % Configuração de Cabeçalho
 % ---
-\setlength{\headsep}{1.6cm} 
-\pagenumbering{arabic}
+\setlength{\headsep}{1.6cm}
 \let\footruleskip\undefined % footrule skip already defined by memoir, undefine it before fancyhdr does again
 \usepackage{fancyhdr}
 
@@ -160,8 +158,8 @@
 % ---
 % Altera as margens padrões
 % ---
-\setlrmarginsandblock{3cm}{2cm}{*}
-\setulmarginsandblock{2.9cm}{30pt}{*}
+\setlrmarginsandblock{3cm}{2.09cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
 \checkandfixthelayout
 % ---
 
@@ -170,13 +168,17 @@
 % --- 
 
 % O tamanho do parágrafo é dado por:
-\setlength{\parindent}{1.3cm}
+\setlength{\parindent}{0pt}
 
 % Controle do espaçamento entre um parágrafo e outro:
-\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+\setlength{\parskip}{6pt}
+\setlength\aftersecskip{18pt} % Espaço duplo entre o título da seção e a primeira linha
+
 
 % Espaçamento simples
 \SingleSpacing
+
+
 
 % ----
 % Início do documento
@@ -195,34 +197,39 @@
 % ELEMENTOS PRÉ-TEXTUAIS
 % ----------------------------------------------------------
 
-%---
-%
-% Se desejar escrever o artigo em duas colunas, descomente a linha abaixo
-% e a linha com o texto ``FIM DE ARTIGO EM DUAS COLUNAS''.
-% \twocolumn[    		% INICIO DE ARTIGO EM DUAS COLUNAS
-%
-%---
 % página de titulo
 \maketitle
 
 % resumo em português
 \begin{resumoumacoluna}
- Conforme a ABNT NBR 6022:2003, o resumo é elemento obrigatório, constituído de
- uma sequência de frases concisas e objetivas e não de uma simples enumeração
- de tópicos, não ultrapassando 250 palavras, seguido, logo abaixo, das palavras
- representativas do conteúdo do trabalho, isto é, palavras-chave e/ou
- descritores, conforme a NBR 6028. (\ldots) As palavras-chave devem figurar logo
- abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
- ponto e finalizadas também por ponto.
- 
- \vspace{\onelineskip}
- 
- \noindent
- \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+	\begin{SingleSpace}
+		Conforme a ABNT NBR 6022:2003, o resumo é elemento obrigatório, constituído de
+		uma sequência de frases concisas e objetivas e não de uma simples enumeração
+		de tópicos, não ultrapassando 250 palavras, seguido, logo abaixo, das palavras
+		representativas do conteúdo do trabalho, isto é, palavras-chave e/ou
+		descritores, conforme a NBR 6028. (\ldots) As palavras-chave devem figurar logo
+		abaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por ponto e finalizadas também por ponto. 
+		\vspace{\onelineskip} 
+		\noindent
+		
+		\textbf{Palavras-chave}: latex. abntex. editoração de texto.
+ 	\end{SingleSpace}
 \end{resumoumacoluna}
 
-% ]  				% FIM DE ARTIGO EM DUAS COLUNAS
-% ---
+\begin{resumo}[Abstract]
+	\begin{SingleSpace}
+		\begin{otherlanguage*}{english}
+			This is the english abstract.
+			
+			\vspace{\onelineskip}
+			
+			\noindent 
+			\textbf{Keywords}: latex. abntex. text editoration.
+		\end{otherlanguage*}
+ 	\end{SingleSpace}
+\end{resumo}
+
+
 
 % ----------------------------------------------------------
 % ELEMENTOS TEXTUAIS
@@ -233,15 +240,11 @@
 % Introdução
 % ----------------------------------------------------------
 \section*{Introdução}
-
-%\begin{figure}[p]
-%	\includegraphics{header_igti.jpg}
-%	\caption{This is a multipage figure}
-%	\label{fig:xxx}
-%\end{figure} 
-
 \addcontentsline{toc}{section}{Introdução}
+%\begin{DoubleSpace}
+%\end{DoubleSpace} 
 
+\begin{OnehalfSpacing}
 Este documento e seu código-fonte são exemplos de referência de uso da classe
 \textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento exemplifica a
 elaboração de publicação periódica científica impressa produzida conforme a ABNT
@@ -251,7 +254,6 @@ científica impressa - Apresentação}.
 A expressão ``Modelo canônico'' é utilizada para indicar que \abnTeX\ não é
 modelo específico de nenhuma universidade ou instituição, mas que implementa tão
 somente os requisitos das normas da ABNT. Uma lista completa das normas
-observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
 
 Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
 \url{http://www.abntex.net.br/}. Também fique livre para conhecer,
@@ -260,18 +262,15 @@ modificados tenham seus nomes alterados e que os créditos sejam dados aos
 autores originais, nos termos da ``The \LaTeX\ Project Public
 License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
 
-Encorajamos que sejam realizadas customizações específicas deste documento.
+Encorajamos que sejam reealizadas customizações específicas deste documento.
 Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
 \abnTeX, distribua-se arquivos com as respectivas customizações. Isso permite
 que futuras versões do \abnTeX~não se tornem automaticamente incompatíveis com
-as customizações promovidas. Consulte \citeonline{abntex2-wiki-como-customizar}
 par mais informações.
 
 Este exemplo deve ser utilizado como complemento do manual da classe
-\textsf{abntex2} \cite{abntex2classe}, dos manuais do pacote
-\textsf{abntex2cite} \cite{abntex2cite,abntex2cite-alf} e do manual da classe
-\textsf{memoir} \cite{memoir}. Consulte o \citeonline{abntex2modelo} para obter
 exemplos e informações adicionais de uso de \abnTeX\ e de \LaTeX.
+\end{OnehalfSpacing}
 
 % ----------------------------------------------------------
 % Seção de explicações
@@ -350,7 +349,6 @@ ser inserido no preâmbulo do documento.
 
    
 Outras informações sobre cabeçalhos e rodapés estão disponíveis na seção 7.3 do
-manual do \textsf{memoir} \cite{memoir}.
 
 \section{Mais exemplos no Modelo Canônico de Trabalhos Acadêmicos}
 
