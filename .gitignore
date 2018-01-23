@@ -3,7 +3,10 @@ TOREAD/
 .ipynb_checkpoints/
 dados/2016/
 dados/2012/
+dados/2008/
 NCM_NBS/
 TCC/
+
+!*.ipynb
 
 *.zip

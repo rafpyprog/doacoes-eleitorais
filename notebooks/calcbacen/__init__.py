@@ -1,0 +1,1 @@
+from .indice_preco import corrigir_por_indice_preco

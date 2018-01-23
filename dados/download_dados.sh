@@ -38,9 +38,10 @@ URL_RESULTADOS=${URL_REPOSITORIO}/votacao_partido_munzona/votacao_partido_munzon
 
 
 if [ "$ANO" -lt 2012 ]; then
+	http://agencia.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_contas_2016.zip
     filename=prestacao_contas_${ANO}.zip
 else
-    filename=prestacao_contas_final_${ANO}.zip	
+    filename=prestacao_contas_${ANO}.zip	
 fi
 
 URL_PRESTCONTA=${URL_REPOSITORIO}/prestacao_contas/${filename} 
@@ -51,7 +52,7 @@ echo Realizando download dos dados
 echo [1/4] $URL_CANDIDATOS & curl --progress-bar -o ./$DIR_CANDIDATOS/canditados.zip $URL_CANDIDATOS
 echo [2/4] $URL_RESULTADOS & curl --progress-bar -o ./$DIR_RESULTADOS/resultados.zip $URL_RESULTADOS
 echo [3/4] $URL_ELEITORADO & curl --progress-bar -o ./$DIR_ELEITORADO/eleitorado.zip $URL_ELEITORADO 
-echo [4/4] $URL_PRESTCONTA & curl --progress-bar -o ./$DIR_PRESTCONTA/prestconta.zip $URL_PRESTCONTA
+echo [4/4] $URL_PRESTCONTA & curl --progress-bar -o ./$DIR_PRESTCONTA/prestconta.zip -C - $URL_PRESTCONTA
 
 
 
